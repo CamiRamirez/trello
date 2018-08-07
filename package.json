@@ -1,0 +1,14 @@
+{
+  "name": "trello",
+  "version": "0.0.1",
+  "description": "Réplica de trello, con estilos y funcionalidad básica",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "trello"
+  ],
+  "author": "Camila Constanza Ramírez Ponce",
+  "license": "ISC"
+}
