@@ -1,0 +1,308 @@
+body{
+  background-image: url(../../src/img/beach-dawn-depth-of-field-1139541.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  
+}
+#headerTop{
+  width: 100%;
+  background-color:#3B0B2E;
+  color: white;
+  height: 2.5em;
+  opacity: 0.5;
+  padding:0;
+}
+
+#searchTab{
+  margin-top: 0.3em;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: white;
+  cursor: pointer;
+  margin-left: 0.5em;
+}
+#searchTab:hover{
+  opacity: 0.5;
+}
+
+#tableText{
+  font-size: 0.8em;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 450px) {
+  #tableText{
+    display: none;
+  }
+}
+
+ #inputHeader{
+  width: 15%;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: white; 
+}
+#inputHeader:hover{
+  opacity: 0.5;
+}
+
+#iconSearch{
+  margin-left: 80%;
+}
+
+@media (max-width: 450px) {
+  #inputHeader{
+    width: 2em;
+  }
+  #iconSearch{
+    margin-left: 10%;
+  }
+}
+
+#logotrello{
+  width:70px;
+  height:20px; 
+  left: 47%;
+  margin-top: 0.5em;
+  position: absolute;
+  margin-top: none;
+  padding-top: none;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+@media (max-width: 450px) {
+  #logotrello{
+  left: 33%;
+  }
+}
+#logotrello:hover{
+  opacity: 0.5;
+}
+
+#photouser{
+  width:44px;
+  height:42px;
+  float: right;
+  margin-top: -0.1em;
+  cursor: pointer;
+}
+
+#photouser:hover{
+  opacity: 0.7;
+}
+
+#iconadd{
+  font-size: 1em;
+  
+  text-align: center;
+}
+#iconinfo{
+  font-size: 0.8em;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .btnHide{
+    display: none;
+  }
+}
+#iconbell{
+  font-size: 1em;
+  text-align: center;
+}
+.btnIcon{
+  float: right;
+  margin-top: 0.3em;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: white; 
+  width: 1.8em;
+  height: 1.8em;
+  margin-left: 0.2em;
+  cursor: pointer;
+}
+.btnIcon:hover{
+  opacity: 0.5;
+}
+
+/*SUB MENU*/
+
+#subMenu{
+  margin-top: 1em;
+}
+
+#subtitleTab{
+background-color: transparent;
+color: white;
+font-size: 1.1em;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+height: 1.5em;
+}
+#subtitleTab:hover{
+  background-color: #151515;
+  opacity: 0.5;
+}
+
+#btnStar{
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 0.2em;
+  cursor: pointer;
+}
+#btnStar:hover{
+  background-color: #151515;
+  opacity: 0.5;
+}
+#iconStar{
+  font-size: 0.7em;
+  margin-bottom: 0.1em;
+}
+#personal{
+  background-color: transparent;
+  margin-top: 0.4;
+  margin-bottom: 0.4em;
+  color: white;
+  font-size: 0.8em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 1.5em;
+}
+#personal:hover{
+  background-color: #151515;
+  opacity: 0.5;
+}
+.separador{
+  display: inline;
+  color: white;
+  font-size: 1em;
+  opacity: 0.6;
+}
+#privado{
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 1.5em;
+  font-size: 0.8em;
+}
+#privado:hover{
+  background-color: #151515;
+  opacity: 0.5;
+}
+#iconLock{
+  color: white;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+#photouser2{
+  width:42px;
+  height:40px;
+  margin-top: -0.35em;
+  cursor: pointer;
+  margin-left: -0.8em;
+}
+#photouser2:hover{
+  opacity: 0.6;
+}
+
+#user1{
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  border: white;
+  text-align: center;
+}
+#user2{
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  border: white;
+  text-align: center;
+  margin-left: -0.7em;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  opacity: 0.7;
+}
+#user2:hover{
+  background-color: #151515;
+  opacity: 0.5;
+}
+
+#addPerson{
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  border: white;
+  text-align: center;
+  cursor: pointer;
+  background-color: gray;
+  opacity: 0.7;
+}
+
+#iconPerson{
+  font-size: 0.7em;
+  color: white;
+  text-align: center;
+}
+#addPerson:hover{
+  background-color: #151515;
+  opacity: 0.5;
+}
+#showmenu{
+  float: right;
+  margin-right: 0;
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#titleShowMenu{
+  display: inline;
+  text-decoration: underline;
+  font-size: 0.8em;
+}
+
+#showmenu:hover{
+  background-color: #151515;
+  opacity: 0.5;
+}
+
+/*AÑADIR TARJETAS*/
+#addCard{
+background-color: #151515;
+opacity: 0.3;
+border-radius: 3px;
+border: none;
+height: 2.3em;
+color: white;
+margin-top: 0.5em;
+cursor: pointer;
+}
+#addCard:hover{
+  opacity: 0.5;
+}
+#titleAddList{
+  font-size: 0.8em;
+  display: inline;
+  padding-right: 9em;
+  margin-left: 0.5em;
+  opacity: 10;
+}
+#iconaddCard{
+  font-size: 0.7em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
