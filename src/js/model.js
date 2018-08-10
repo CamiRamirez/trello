@@ -1,5 +1,5 @@
-window.validateText = (text) => {
-  if (text.length > 0 || text == null) {
+window.validateText = (textList) => {
+  if (textList.length > 0) {
     return true;
   } else {
     return false;

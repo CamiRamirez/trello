@@ -40,7 +40,7 @@ body{
 }
 
  #inputHeader{
-  width: 15%;
+  width: 13%;
   border-radius: 3px;
   border: 2px solid white;
   background-color: white; 
@@ -139,7 +139,7 @@ background-color: transparent;
 color: white;
 font-size: 1.1em;
 border: none;
-border-radius: 5px;
+border-radius: 3px;
 cursor: pointer;
 height: 1.5em;
 }
@@ -152,7 +152,7 @@ height: 1.5em;
   background-color: transparent;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   margin-top: 0.2em;
   cursor: pointer;
 }
@@ -171,7 +171,7 @@ height: 1.5em;
   color: white;
   font-size: 0.8em;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   cursor: pointer;
   height: 1.5em;
 }
@@ -189,7 +189,7 @@ height: 1.5em;
   background-color: transparent;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   cursor: pointer;
   height: 1.5em;
   font-size: 0.8em;
@@ -264,7 +264,7 @@ height: 1.5em;
   margin-right: 0;
   color: white;
   background-color: transparent;
-  border-radius: 5px;
+  border-radius: 3px;
   border: none;
   cursor: pointer;
 }
@@ -282,14 +282,14 @@ height: 1.5em;
 
 /*AÑADIR TARJETAS*/
 #addCard{
-background-color: #151515;
-opacity: 0.3;
-border-radius: 3px;
-border: none;
-height: 2.3em;
-color: white;
-margin-top: 0.5em;
-cursor: pointer;
+  background-color: #151515;
+  opacity: 0.3;
+  border-radius: 3px;
+  border: none;
+  height: 2.3em;
+  color: white;
+  margin-top: 0.5em;
+  cursor: pointer;
 }
 #addCard:hover{
   opacity: 0.5;
@@ -305,4 +305,80 @@ cursor: pointer;
   font-size: 0.7em;
   margin-left: 0.5em;
   margin-bottom: 0.5em;
+}
+
+/*LISTAS AÑADIDAS*/
+
+#styleAddingList{
+  margin-top:0.5em; 
+  width: 15em;
+  border-radius: 3px;
+}
+
+#nameList{
+  margin: 0.4em;
+  font-size: 0.8em;
+  height: 2.3em;
+  border-radius: 3px;
+  width: 20em;
+  border: gray 1px solid;
+  box-shadow: 0px 0px 7px 0px darkcyan;
+}
+
+.btn-info{
+  background-color: 	#5AAC3D;
+  margin-left: 0.4em;
+  margin-bottom: 0.4em;
+  width: 8em;
+  height: 2.3em;
+  font-size: 0.8em;
+  border-radius: 3px;
+}
+.btn-info:hover{
+  background-color: #519839;
+}
+#closeBtn{
+  background-color: transparent;
+  color: gray;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+}
+#closeBtn:hover{
+  color: #151515;
+}
+
+/*NUEVA LISTA*/
+#listBox{
+  background-color: #E2E4E6;
+  margin-top:0.5em; 
+  width: 15em;
+  border-radius: 3px;
+  margin-left: 1em;
+}
+
+#titleAddList2{
+  width: 2.2em;
+  font-size: 0.8em;
+  display: inline;
+ 
+}
+
+#btnNewCard{
+  background-color: transparent;
+  border-radius: 3px;
+  border: none;
+  height: 2.3em;
+  color: grey;
+  margin-top: 0.5em;
+  cursor: pointer;
+}
+
+#listText{
+  color: #151515;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 1em;
+  font-size: 0.8em;
+  word-wrap: break-word;
 }
