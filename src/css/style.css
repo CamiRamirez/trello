@@ -290,6 +290,7 @@ height: 1.5em;
   color: white;
   margin-top: 0.5em;
   cursor: pointer;
+  width: 17em;
 }
 #addCard:hover{
   opacity: 0.5;
@@ -303,7 +304,7 @@ height: 1.5em;
 }
 #iconaddCard{
   font-size: 0.7em;
-  margin-left: 0.5em;
+  margin-left: 0.3em;
   margin-bottom: 0.5em;
 }
 
@@ -311,7 +312,7 @@ height: 1.5em;
 
 #styleAddingList{
   margin-top:0.5em; 
-  width: 15em;
+  width: 17em;
   border-radius: 3px;
 }
 
@@ -320,7 +321,7 @@ height: 1.5em;
   font-size: 0.8em;
   height: 2.3em;
   border-radius: 3px;
-  width: 20em;
+  width: 22em;
   border: gray 1px solid;
   box-shadow: 0px 0px 7px 0px darkcyan;
 }
@@ -352,7 +353,7 @@ height: 1.5em;
 #listBox{
   background-color: #E2E4E6;
   margin-top:0.5em; 
-  width: 15em;
+  width: 17em;
   border-radius: 3px;
   margin-left: 1em;
 }
@@ -361,7 +362,6 @@ height: 1.5em;
   width: 2.2em;
   font-size: 0.8em;
   display: inline;
- 
 }
 
 #btnNewCard{
@@ -372,6 +372,12 @@ height: 1.5em;
   color: grey;
   margin-top: 0.5em;
   cursor: pointer;
+  width: 17em;
+  text-align: left;
+}
+#btnNewCard:hover{
+  background-color:#D8D8D8;
+  text-decoration: underline;
 }
 
 #listText{
@@ -381,4 +387,59 @@ height: 1.5em;
   padding-top: 1em;
   font-size: 0.8em;
   word-wrap: break-word;
+}
+
+#titleAddList3{
+  width: 2.2em;
+  font-size: 0.8em;
+  display: inline;
+}
+
+#btnNewCard2{
+  background-color: transparent;
+  border-radius: 3px;
+  border: none;
+  height: 2.3em;
+  color: grey;
+  margin-top: 0.5em;
+  cursor: pointer;
+  width: 17em;
+  text-align: left;
+}
+#closeBtn2{
+  background-color: transparent;
+  color: gray;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#nameCard{
+  width: 20.2em;
+  border: none;
+  border-radius: 3px;
+  margin: 0.5em;
+  font-size: 0.8em;
+}
+#listTextCard{
+  display: block;
+  word-wrap: break-word;
+}
+#divCard{
+  padding: 0;
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+  color: #151515;
+  width: 20.2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  font-size: 0.8em;
+  height: 2.5em;
+}
+#textCardhtml{
+  padding-top: 0.5em;
+  margin-left: 0.5em;
 }
