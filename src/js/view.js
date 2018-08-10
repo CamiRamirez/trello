@@ -62,9 +62,7 @@ window.addCard = () => {
 }
 
 //FUNCION PARA CERRAR AÑADIR TARJETA
-window.closeAddCard = () => {
-  document.getElementById('btnNewCard').style.display = 'none';
-  document.getElementById('titleAddList2').style.display = 'none';
+// window.closeAddCard = () => {
 
-}
+// }
 
