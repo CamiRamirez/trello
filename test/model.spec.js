@@ -10,6 +10,12 @@ describe('Validar texto', () => {
       assert.equal(validateText(""), false);
     });
   });
+  describe('Debería el input de agregar tarjeta, tener mas de 1 caracter', () => {
+    it('Debería el texto tener mínimo 1 caracter', () => { 
+      assert.equal(validateTextArea("a"), true); 
+      assert.equal(validateTextArea(""), false);
+    });
+  });
 });
 
 
