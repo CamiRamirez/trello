@@ -1,5 +1,5 @@
 body{
-  background-image: url(../../src/img/beach-dawn-depth-of-field-1139541.jpg);
+  background-image: url(../../src/img/pexels-photo-987947.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   height:100vh;
@@ -11,30 +11,33 @@ body{
 }
 #headerTop{
   width: 100%;
-  background-color:#3B0B2E;
+  background-color: rgb(59, 11, 46, 0.3);
   color: white;
   height: 2.5em;
-  opacity: 0.5;
   padding:0;
 }
 
 #searchTab{
   margin-top: 0.3em;
   border-radius: 3px;
-  border: 2px solid white;
-  background-color: white;
+  border: 2px solid rgba(255, 255, 255, 0);
+  background-color:  rgba(255, 255, 255, 0.3); 
   cursor: pointer;
-  margin-left: 0.5em;
+  margin-left: 0.2em;
 }
 #searchTab:hover{
-  opacity: 0.5;
+  background-color:  rgba(255, 255, 255, 0.2); 
+}
+.fa-trello{
+  color: white;
 }
 
 #tableText{
-  font-size: 0.8em;
+  font-size: 0.9em;
   display: inline-block;
   padding: 0;
   margin: 0;
+  color: white;
 }
 
 @media (max-width: 450px) {
@@ -46,15 +49,17 @@ body{
  #inputHeader{
   width: 13%;
   border-radius: 3px;
-  border: 2px solid white;
-  background-color: white; 
+  border: 2px solid rgba(255, 255, 255, 0);
+  background-color:  rgba(255, 255, 255, 0.3); 
+  cursor: pointer;
 }
 #inputHeader:hover{
-  opacity: 0.5;
+  background-color:  rgba(255, 255, 255, 0.4); 
 }
 
 #iconSearch{
   margin-left: 80%;
+  color: white;
 }
 
 @media (max-width: 450px) {
@@ -76,6 +81,7 @@ body{
   padding-top: none;
   margin-bottom: 1em;
   cursor: pointer;
+  opacity: 0.5;
 }
 @media (max-width: 450px) {
   #logotrello{
@@ -83,7 +89,7 @@ body{
   }
 }
 #logotrello:hover{
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 #photouser{
@@ -100,12 +106,13 @@ body{
 
 #iconadd{
   font-size: 1em;
-  
+  color: white;
   text-align: center;
 }
 #iconinfo{
   font-size: 0.8em;
   text-align: center;
+  color: white;
 }
 
 @media (max-width: 750px) {
@@ -116,20 +123,21 @@ body{
 #iconbell{
   font-size: 1em;
   text-align: center;
+  color: white;
 }
 .btnIcon{
   float: right;
   margin-top: 0.3em;
   border-radius: 3px;
-  border: 2px solid white;
-  background-color: white; 
+  border: 2px solid rgba(255, 255, 255, 0);
+  background-color:  rgba(255, 255, 255, 0.3); 
   width: 1.8em;
   height: 1.8em;
   margin-left: 0.2em;
   cursor: pointer;
 }
 .btnIcon:hover{
-  opacity: 0.5;
+  background-color:  rgba(255, 255, 255, 0.2); 
 }
 
 /*SUB MENU*/
@@ -148,8 +156,7 @@ cursor: pointer;
 height: 1.5em;
 }
 #subtitleTab:hover{
-  background-color: #151515;
-  opacity: 0.5;
+  background-color:  rgba(26, 25, 25, 0.4); 
 }
 
 #btnStar{
@@ -161,8 +168,7 @@ height: 1.5em;
   cursor: pointer;
 }
 #btnStar:hover{
-  background-color: #151515;
-  opacity: 0.5;
+  background-color:  rgba(26, 25, 25, 0.4); 
 }
 #iconStar{
   font-size: 0.7em;
@@ -180,8 +186,7 @@ height: 1.5em;
   height: 1.5em;
 }
 #personal:hover{
-  background-color: #151515;
-  opacity: 0.5;
+  background-color:  rgba(26, 25, 25, 0.4); 
 }
 .separador{
   display: inline;
@@ -199,8 +204,7 @@ height: 1.5em;
   font-size: 1em;
 }
 #privado:hover{
-  background-color: #151515;
-  opacity: 0.5;
+  background-color:  rgba(26, 25, 25, 0.4); 
 }
 #iconLock{
   color: white;
@@ -239,8 +243,7 @@ height: 1.5em;
   opacity: 0.7;
 }
 #user2:hover{
-  background-color: #151515;
-  opacity: 0.5;
+  background-color:  rgba(26, 25, 25, 0.4); 
 }
 
 #addPerson{
@@ -260,8 +263,7 @@ height: 1.5em;
   text-align: center;
 }
 #addPerson:hover{
-  background-color: #151515;
-  opacity: 0.5;
+  background-color:  rgba(26, 25, 25, 0.4); 
 }
 #showmenu{
   float: right;
@@ -280,14 +282,12 @@ height: 1.5em;
 }
 
 #showmenu:hover{
-  background-color: #151515;
-  opacity: 0.5;
+  background-color: rgba(26, 25, 25, 0.4); 
 }
 
 /*AÑADIR TARJETAS*/
 #addCard{
-  background-color: #151515;
-  opacity: 0.3;
+  background-color: rgba(26, 25, 25, 0.2);
   border-radius: 3px;
   border: none;
   height: 2.3em;
@@ -299,7 +299,7 @@ height: 1.5em;
 }
 
 #addCard:hover{
-  opacity: 0.5;
+  background-color: rgba(26, 25, 25, 0.3);
 }
 #titleAddList{
   font-size: 0.8em;
@@ -371,7 +371,6 @@ height: 1.5em;
 }
 
 #titleAddList2{
-  width: 2.2em;
   font-size: 0.8em;
   display: inline;
 }
@@ -402,7 +401,6 @@ height: 1.5em;
 }
 
 #titleAddList3{
-  width: 2.2em;
   font-size: 0.8em;
   display: inline;
 }
@@ -455,4 +453,7 @@ height: 1.5em;
   padding-top: 0.5em;
   margin-left: 0.5em;
 }
-
+#btnEllipsis{
+  color: gray;
+  right: 0;
+}
