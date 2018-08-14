@@ -1,5 +1,5 @@
 body{
-  background-image: url(../../src/img/ibis-bird-red-animals-158471.jpeg);
+  background-image: url(../../src/img/pexels-photo-987947.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   height:100vh;
@@ -8,6 +8,7 @@ body{
 .row{
   padding: 0;
   margin: 0;
+  
 }
 #headerTop{
   width: 100%;
@@ -287,7 +288,7 @@ height: 1.5em;
 
 /*AÑADIR TARJETAS*/
 #addCard{
-  background-color: rgba(26, 25, 25, 0.2);
+  background-color: rgba(26, 25, 25, 0.3);
   border-radius: 3px;
   border: none;
   height: 2.3em;
@@ -315,6 +316,9 @@ height: 1.5em;
 }
 
 /*LISTAS AÑADIDAS*/
+#listCard{
+  word-wrap: break-word;
+}
 
 #addingList{
   padding: 0; 
@@ -326,7 +330,6 @@ height: 1.5em;
   border-radius: 3px;
   background-color: #E2E4E6;
   margin-left: 0.5em;
-
 }
 
 #nameList{
@@ -362,12 +365,13 @@ height: 1.5em;
 }
 
 /*NUEVA LISTA*/
-#listBox{
+.listBox{
   background-color: #E2E4E6;
   margin-top:0.5em; 
   width: 17em;
   border-radius: 3px;
   margin-left: 0.5em;
+  vertical-align: top;
 }
 
 #titleAddList2{
@@ -397,7 +401,6 @@ height: 1.5em;
   margin-right: 1em;
   padding-top: 1em;
   font-size: 0.8em;
-  word-wrap: break-word;
 }
 
 #titleAddList3{
@@ -430,11 +433,9 @@ height: 1.5em;
   border-radius: 3px;
   margin: 0.5em;
   font-size: 0.8em;
+  
 }
-#listTextCard{
-  display: block;
-  word-wrap: break-word;
-}
+
 #divCard{
   padding: 0;
   background-color: white;
@@ -448,10 +449,12 @@ height: 1.5em;
   margin-top: 1em;
   font-size: 0.8em;
   height: 2.5em;
+  word-wrap: break-word;
 }
 #textCardhtml{
   padding-top: 0.5em;
   margin-left: 0.5em;
+  word-wrap: break-word;
 }
 #btnEllipsis{
   color: gray;
