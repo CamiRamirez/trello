@@ -8,8 +8,7 @@ body{
 .row{
   padding: 0;
   margin: 0;
-  box-flex: row;
-  overflow-x: auto;
+
 }
 #headerTop{
   width: 100%;
@@ -319,10 +318,13 @@ height: 1.5em;
 /*LISTAS AÑADIDAS*/
 #listCard{
   word-wrap: break-word;
+  display: inline-block;
 }
 
 #addingList{
   padding: 0; 
+  vertical-align: top;
+  display: inline-block;
   
 }
 #styleAddingList{
@@ -330,7 +332,7 @@ height: 1.5em;
   width: 17em;
   border-radius: 3px;
   background-color: #E2E4E6;
-  margin-left: 0.5em;
+  margin-left: 0.5em; 
 }
 
 #nameList{
